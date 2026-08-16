@@ -271,12 +271,12 @@ header{display:flex;align-items:center;gap:15px;flex:0 0 auto}
         </div>
 
         <div class="text">
-          <p class="lede">I work on <em>multimodal AI, 3D vision, and world models</em> — teaching machines to build a usable picture of the world from what they see and hear.</p>
+          <p class="lede">I work on <em>multimodal AI, 3D vision, and world models</em></p>
           <p>Master's student in Computer Science at the University of Michigan, Ann Arbor.</p>
           <p>Before this: research intern at Stanford's <a href="https://williamspanlab.com/">PanLab</a> on multimodal AI for neuroimaging; <a href="https://dream-lab.in/">DREAM:Lab, IISc Bangalore</a> on deep learning for edge accelerators; <a href="https://research.samsung.com/sri-b">Samsung R&amp;D Bangalore</a> on sound classification inside devices.</p>
           <div class="now">
             <strong>Currently</strong>
-            Generating high-quality 3D meshes, with <a href="https://jjparkcv.github.io/">Dr. JJ Park</a>.
+            Generating high-quality 3D meshes and understanding hyperspectral images, with <a href="https://jjparkcv.github.io/">Dr. JJ Park</a>.
           </div>
         </div>
       </div>
@@ -4004,7 +4004,7 @@ document.getElementById('pubs').innerHTML = PUBLICATIONS.map(p=>{
   const n=PUBLICATIONS.length, W=w[n]||n;
   const h=document.getElementById('pubsHeading');
   if(n===1) h.textContent='One paper, one problem.';
-  else if(n>0) h.textContent=`${W} papers, ${W.toLowerCase()} problems.`;
+  else if(n>0) h.textContent=`Always working on more.`;
 })();
 
 // more than six papers reads better in three columns
