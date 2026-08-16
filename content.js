@@ -31,12 +31,24 @@
 const PUBLICATIONS = [
 
   {
-    title:   "CVCP-Fusion: On Implicit Depth Estimation for 3D Bounding Box Prediction",
-    authors: "Pranav Gupta*, Rishabh Rengarajan*, Viren Bankapur, Vedansh Mannem, Lakshit Ahuja, Surya Vijay, Kevin Wang",
-    venue:   "Curieux Academic Journal",
-    year:    "2024",
+    title:   "Pagoda: An Energy and Time Roofline Study for DNN Workloads on Edge Accelerators",
+    authors: "K Prashanthi S, Kunal Kumar Sahoo, Amartya Ranjan Saikia, Pranav Gupta, Atharva Vinay Joshi, Priyanshu Pansari, Yogesh Simmhan",
+    venue:   "ICPP 2026 (accepted)",
+    year:    "2026",
+    image:   "new_images/pagoda.png",
     links: [
-      { label: "arXiv", url: "https://arxiv.org/abs/2410.11211" }
+      { label: "arXiv", url: "https://arxiv.org/abs/2509.20189" }
+    ]
+  },
+
+  {
+    title:   "Fulcrum: Optimizing Concurrent DNN Training and Inferencing on Edge Accelerators",
+    authors: "K Prashanthi S, Saisamarth Taluri, Pranav Gupta, Amartya Ranjan Saikia, Kunal Kumar Sahoo, Atharva Vinay Joshi, Lakshya Karwa, Kedar Dhule, Yogesh Simmhan",
+    venue:   "preprint",
+    year:    "2026",
+    image:   "new_images/fulcrum.png",
+    links: [
+      { label: "arXiv", url: "https://arxiv.org/abs/2509.20205" }
     ]
   },
 
